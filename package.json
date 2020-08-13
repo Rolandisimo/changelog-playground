@@ -4,11 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "create-changelog": "auto-changelog -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "auto-changelog": "^2.2.0"
+  "dependencies": {},
+  "auto-changelog": {
+    "issueUrl": "https://issues.apache.org/jira/browse/{id}",
+    "issuePattern": "[A-Z]+-\\d+"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "auto-changelog": "^2.2.0",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
