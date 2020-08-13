@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create-changelog": "auto-changelog",
+    "create-changelog": "auto-changelog --release-summary",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "auto-changelog": {
-    "issueUrl": "https://printify.atlassian.net/browse/{id}",
+    "issueUrl": "https://issues.apache.org/jira/browse/{id}",
     "issuePattern": "[A-Z]+-\\d+"
   },
   "devDependencies": {
