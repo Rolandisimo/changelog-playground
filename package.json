@@ -1,7 +1,7 @@
 {
   "name": "changelog",
   "version": "2.2.0",
-  "description": "",
+  "description": "Playground for configuring commitlint, versioning and changelog generation",
   "main": "index.js",
   "scripts": {
     "create-changelog": "auto-changelog",
