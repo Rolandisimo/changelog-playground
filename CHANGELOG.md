@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### v2.2.1
+
+> 13 August 2020
+
+- AP-11: Add package description [`#AP-11`](https://issues.apache.org/jira/browse/AP-11)
+
 #### v2.2.0
 
 > 13 August 2020
