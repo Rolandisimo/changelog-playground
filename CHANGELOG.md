@@ -2,26 +2,23 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### 3.0.0
+#### v2.1.0
 
 > 13 August 2020
 
+- AP-10: Change order limit [`#AP-10`](https://issues.apache.org/jira/browse/AP-10)
+
+#### v2.0.0
+
+> 13 August 2020
+
+- AP-9: Fix changelog config [`#AP-9`](https://issues.apache.org/jira/browse/AP-9)
 - AP-7: Change page limit in module b [`#AP-7`](https://issues.apache.org/jira/browse/AP-7)
 - AP-7: Add module c [`#AP-7`](https://issues.apache.org/jira/browse/AP-7)
 - AP-6: Add auto-changelog config [`#AP-6`](https://issues.apache.org/jira/browse/AP-6)
 - **Breaking change:** AP-5: BREAKING CHANGE - Change a, b to the version 3.0.0 standard [`#AP-5`](https://issues.apache.org/jira/browse/AP-5)
 - AP-4: Change JIRA issue url [`#AP-4`](https://issues.apache.org/jira/browse/AP-4)
-
-#### 2.1.0
-
-> 13 August 2020
-
 - AP-4: Remove -p flag from changelog, fix jira url [`#AP-4`](https://issues.apache.org/jira/browse/AP-4)
-
-#### 2.0.0
-
-> 13 August 2020
-
 - AP-3: Remove deprecated Order class [`#AP-3`](https://issues.apache.org/jira/browse/AP-3)
 
 #### 1.0.1
