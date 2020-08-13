@@ -13,9 +13,9 @@
   "auto-changelog": {
     "issueUrl": "https://issues.apache.org/jira/browse/{id}",
     "issuePattern": "[A-Z]+-\\d+",
-    "commit-limit": false,
-    "hide-credit": true,
-    "breaking-pattern": "BREAKING CHANGE"
+    "commitLimit": false,
+    "hideCredit": true,
+    "breakingPattern": "BREAKING CHANGE"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",

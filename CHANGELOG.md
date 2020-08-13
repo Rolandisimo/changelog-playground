@@ -6,7 +6,10 @@ All notable changes to this project will be documented in this file. Dates are d
 
 > 13 August 2020
 
-- AP-5: Change a, b to the version 3.0.0 standard [`#AP-5`](https://issues.apache.org/jira/browse/AP-5)
+- AP-7: Change page limit in module b [`#AP-7`](https://issues.apache.org/jira/browse/AP-7)
+- AP-7: Add module c [`#AP-7`](https://issues.apache.org/jira/browse/AP-7)
+- AP-6: Add auto-changelog config [`#AP-6`](https://issues.apache.org/jira/browse/AP-6)
+- **Breaking change:** AP-5: BREAKING CHANGE - Change a, b to the version 3.0.0 standard [`#AP-5`](https://issues.apache.org/jira/browse/AP-5)
 - AP-4: Change JIRA issue url [`#AP-4`](https://issues.apache.org/jira/browse/AP-4)
 
 #### 2.1.0
