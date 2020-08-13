@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create-changelog": "auto-changelog --release-summary",
+    "create-changelog": "auto-changelog",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,7 +12,10 @@
   "dependencies": {},
   "auto-changelog": {
     "issueUrl": "https://issues.apache.org/jira/browse/{id}",
-    "issuePattern": "[A-Z]+-\\d+"
+    "issuePattern": "[A-Z]+-\\d+",
+    "commit-limit": false,
+    "hide-credit": true,
+    "breaking-pattern": "BREAKING CHANGE"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
